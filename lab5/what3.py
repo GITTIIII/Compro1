@@ -1,0 +1,15 @@
+print("Display data as your request")
+name = input("Enter name: ")
+age = input("Enter age: ")
+h = input("Enter height: ")
+print("Your name:",name)
+print("Your age:",age)
+print("Your height:",h)
+sname = input("Requested space for name: ")
+sage = input("requested space for age: ")
+sh =input("Requested space for height: ")
+print("1234567890"*3)
+form = "%"+sname+"s"+"%"+sage+"s"+"%"+sh+"s"
+print(form%(name,age,h))
+
+print(("%"+sname+"s")%name)

@@ -1,0 +1,7 @@
+A = int(input("A: "))
+B = int(input("B: "))
+print("A is equal to",str(A)+".")
+print("B is equal to",str(B)+".")
+if (A>B) : print("A is bigger than B.")
+elif (B>A) : print("A is smaller than B.")
+else : print("A is equal to B.")

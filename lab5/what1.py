@@ -1,0 +1,7 @@
+name = input("Name: ")
+age = int(input("Age: "))
+weight = float(input("Weight: "))
+sex = input("Sex: ")
+print("Hi,",name+".")
+print("You are",age,"years old and your weight is","%f"%weight+".")
+print("You are",sex+".")

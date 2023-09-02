@@ -1,0 +1,7 @@
+a = int(input("a = "))
+b = int(input("b = "))
+c = int(input("c = "))
+print("a = "+str(a)+",","b = "+str(b),"and c =",c)
+print(str(a)+">"+str(b),"==>",a>b)
+print(c,"is an odd number ==>",c%2==1)
+print(str(a)+">"+str(b),"and",a,"is an even number ==>",a%2==0)

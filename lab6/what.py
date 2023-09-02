@@ -1,0 +1,5 @@
+n =int(input("Enter a number: "))
+print("Type of n =",type(n))
+print("Decimal number",n,"= Binary number",bin(n))
+print("Decimal number",n,"= Octal number",oct(n))
+print("Decimal number",n,"= Hexadecimal number",hex(n))

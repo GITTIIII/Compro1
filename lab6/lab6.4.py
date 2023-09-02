@@ -1,0 +1,5 @@
+s = input("Enter a sentence: ")
+print("There are",len(s),"characters.")
+print("Capital Title:",s.title())
+print("All Uppercase:",s.upper())
+print("All Lowercase:",s.lower())

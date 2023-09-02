@@ -1,0 +1,7 @@
+s = input("Enter a string: ")
+n = int(input("Display data at index: "))
+print("Data at index",n,"is","'"+s[n]+"'")
+n1 = int(input("Start display data at index: "))
+n2 = int(input("Stop display data at index: "))
+n3 = int(input("Step to move: "))
+print("Data from index",n1,"to",n2,"is","'"+s[n1:n2:n3]+"'")
